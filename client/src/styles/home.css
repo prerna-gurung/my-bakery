@@ -18,8 +18,8 @@
     display: flex;
     justify-content: space-around; 
     flex-wrap: wrap; 
-    row-gap: 40px;
-    column-gap:20px;
+    row-gap: 20px;
+    column-gap:40px;
     padding:0 50px;
 }
 .cake-item {
