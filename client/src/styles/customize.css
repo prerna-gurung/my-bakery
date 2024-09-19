@@ -1,17 +1,16 @@
 #customised-background {
     background-color:#F9F0EB;
     min-height: 89vh;
-    
 }
 
 .custom-image {
    display: flex;
    justify-content: center;
    align-items: center;
-    height: 89vh;
-   
+    height: 89vh;  
     
 }
+
 .custom-cake-image {
 height: 70%;
 width: auto;
@@ -63,7 +62,7 @@ border-radius: 10px;
 
 @media (max-width: 768px) {
     .form-submit {
-        margin-top: 30px;
+        margin-bottom: 100px;
     }
 
     .custom-cake-image {

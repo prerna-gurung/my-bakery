@@ -2,6 +2,9 @@
     background-color: #F9F0EB;
     margin-top: 11vh;
     min-height: 89vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
    
 }
   
@@ -10,13 +13,15 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding:0 12rem;
+    padding:0 50px;
     width: 100%;
+    gap:1rem;
 }
   
 .text-content {
     width: 60%;
-    padding-right: 1rem;
+    padding:0 20px;
+ 
 }
   
 .about-section h1 {
@@ -45,11 +50,12 @@
 .cake-images {
     display: flex;
     flex-direction: column; 
-    height: 69vh;
+    height: 60vh;
     position: relative;
-    justify-content:flex-start;
-    align-items: center;
-    width: 40%; 
+    justify-content:center;
+    align-items:flex-start;
+    width: 35%; 
+    
 }
   
 .cake-image {
@@ -62,8 +68,29 @@
 }
 #overlap {
   position: absolute; 
-    top: 180px; 
-    left: 220px; 
+    top: 230px; 
+    left: 180px; 
     z-index: 2; 
     
+}
+
+@media (max-width: 1200px)  {
+    #overlap {
+        display:none;
+    }
+    .cake-images{
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 850px)  {
+
+    .cake-images{
+      display:none;
+    }
+    .text-content {
+        width: 100%;
+    }
+
 }

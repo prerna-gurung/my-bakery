@@ -14,7 +14,7 @@
     width: 100%;
     min-height: 89vh;
 }
-.shop {
+.shop,.other {
     display: flex;
     justify-content: space-around; 
     flex-wrap: wrap; 
@@ -63,15 +63,16 @@
 #categories,#ocassion,#other-items {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 .custom-made {
     display: grid;
-    gap: 2.5rem;
+    gap: 3rem;
     grid-template-columns: 260px 260px;
     grid-template-rows: 200px 200px;
     justify-content: center;
     padding: 10px 0;
+    width:100%;
     
 }
   
@@ -87,6 +88,9 @@
   
 #ocassion_section {
     background-color: #F1BDB0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
 
 }
 .cust-cake-img {
@@ -101,13 +105,6 @@
    
 }
   
-.other {
-    display: flex;
-    justify-content: space-around; 
-    flex-wrap: wrap; 
-    gap: 20px; 
-    padding: 20px;
-}
   
 #gifts {
     background-image: url('../assets/images/gifts_background.jpg');
@@ -153,3 +150,17 @@ img.feature-icon {
   
 }
 
+@media (max-width: 605px)  {
+    .banner {
+        display:none;
+    }
+    #categories_section {
+        margin-top: 11vh;
+    }
+    .shop,.other {
+        row-gap: 5px;
+        column-gap:10px;
+        padding:0 50px;
+    }
+
+}

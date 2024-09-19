@@ -28,7 +28,7 @@ function List() {
     ];
 
     return (
-        <section className="component">
+        <section className="component" id="categories_section">
         <h1 id="categories">Shop by Categories</h1>
         <div className="shop">
            

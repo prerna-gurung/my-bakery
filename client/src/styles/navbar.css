@@ -15,7 +15,12 @@ nav {
 a {
     color: #644734;
     text-decoration: none;
-    padding: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+  
+    margin: auto 0;
+    height: 100%;
 }
 .brown {
     background-color: #F1BDB0;
@@ -27,3 +32,9 @@ a {
     margin-right: 7rem;
 }
   
+@media (max-width: 605px)  {
+    .logo {
+        display: none;
+    }
+
+}
