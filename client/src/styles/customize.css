@@ -1,0 +1,72 @@
+#customised-background {
+    background-color:#F9F0EB;
+    min-height: 89vh;
+    
+}
+
+.custom-image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 89vh;
+   
+    
+}
+.custom-cake-image {
+height: 70%;
+width: auto;
+border-radius: 10px;
+}
+
+.form-submit {
+    padding: 20px;
+    background-color:#F1BDB0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.header-form {
+    font-size: 1.7rem;
+    color:#463225;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+}
+
+.form-control {
+    border-radius: 5px;
+    font-size: 0.7rem;
+    background-color: #F9F0EB;
+    border:2px solid #F1BDB0 ;
+}
+
+.form-group {
+    color: #463225;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.btn-danger {
+    margin-top: 10px;
+    background-color: #ff5e57;
+    border-color: #ff5e57;
+    border-radius: 5px;
+}
+
+.btn-danger:hover {
+    background-color: #ff3d3d;
+    border-color: #ff3d3d;
+}
+
+.text-danger {
+    color: #ff5e57 !important;
+}
+
+@media (max-width: 768px) {
+    .form-submit {
+        margin-top: 30px;
+    }
+
+    .custom-cake-image {
+        margin-bottom: 20px;
+    }
+}

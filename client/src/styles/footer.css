@@ -1,0 +1,33 @@
+#footer {
+    background-color:#F1BDB0; 
+}
+
+
+footer h5 {
+    font-size: 1rem;
+    color: #463225;
+}
+
+footer p, footer a {
+    font-size: 0.9rem !important; 
+    color: #634438;
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social {
+    display: inline-block;
+   
+}
+
+#my_logo {
+    width: 120px;
+    height: auto;
+    display: block;
+}

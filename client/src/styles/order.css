@@ -1,0 +1,109 @@
+.order {
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+    margin-top: 11vh;
+    min-height: 89vh;
+    background-color:#F9F0EB ;
+
+}
+.order-img {
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}
+.cake_img {
+    width: 100%;
+    margin: 30px;
+    height: 80%;
+    border: 20px solid rgb(255, 255, 255);
+    
+    object-fit: cover;
+}
+.order-description {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:20px ;
+   
+}
+#weight-list {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.ratings {
+    display: flex;
+    font-size: small;
+    gap: 0.5rem;
+}
+.star {
+    width: 17px;
+    height: 17px;
+    
+}
+.weight-opt {
+    list-style-type: none;
+    padding: 5px 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.weight-opt.selected {
+    background-color: #d3d3d3;
+    font-weight: bold;
+}
+
+.quantity-button {
+    width: 15%;
+    height: 5%;
+}
+
+.btn-outline-secondary {
+ 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.btn-outline-secondary:hover {
+    background-color:#ccc;
+}
+
+
+.quantity {
+    font-size: 13px;
+    border: 1px solid #ccc;
+    height: auto;
+    text-align: center;
+    padding:5px 15px;
+    margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+    .order {
+        flex-direction: column;
+        gap: 2rem;
+       
+    }
+
+    .order-img,
+    .order-description {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 10px;
+    }
+
+    .quantity-button {
+        width: 100%;
+        
+    }
+    .quantity{
+        width: 30%;
+
+        }
+}

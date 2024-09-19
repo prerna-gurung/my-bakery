@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+.banner {
+    width: 100%;
+    max-height: 89vh;
+    margin-top: 11vh;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    min-height: 89vh;
+}
+.shop {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px;
+}
+.cake-item {
+    width: 200px; 
+    height: 200px; 
+    border: 2px solid #e0e0e0; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: 2rem;
+}
+  
+.cake-item:hover {
+    transform: scale(1.05);
+}
+  
+.cake-img {
+    width: 100%;
+    height: 80%; 
+    border-bottom: 2px solid #e0e0e0; 
+}
+  
+.cake-title,.cust-cake-title {
+    margin-top: 5px; 
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    
+}
+.component {
+    width: 100%;
+    min-height: 89vh;
+    box-sizing: border-box;
+    padding: 2rem;
+    background-color: #F9F0EB;
+  
+}
+#categories,#ocassion,#other-items {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1rem;
+}
+.custom-made {
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: 260px 260px;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    padding: 10px 0;
+    
+}
+  
+.cust_prod{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #e0e0e0; 
+    border-radius: 10px;      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+  
+#ocassion_section {
+    background-color: #F1BDB0;
+
+}
+.cust-cake-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+  
+.cust-cake-img:hover {
+    transform: scale(1.08);
+   
+}
+  
+.other {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px;
+}
+  
+#gifts {
+    background-image: url('../assets/images/gifts_background.jpg');
+}
+#cute_cakes {
+    background-image: url('../assets/images/cute_cake_background.jpg');
+}
+  
+  
+.parallax {
+    background-attachment: fixed;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+#feature {
+    background-color: #F1BDB0;
+  
+}
+  
+#feature h3 {
+    color: #463225 !important;
+    font-family: 'Pacifico', cursive;
+}
+  
+#feature p {
+    color: #463225 !important;
+    font-family: 'Poppins', sans-serif; 
+}
+img.feature-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+  
+}
+
