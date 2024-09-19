@@ -158,9 +158,47 @@ img.feature-icon {
         margin-top: 11vh;
     }
     .shop,.other {
-        row-gap: 5px;
-        column-gap:10px;
-        padding:0 50px;
+        gap:5px;
+        padding:0 20px;
+      
+    }
+    .cake-item {
+        width: 150px; 
+        height: 150px; 
+    }
+
+    .custom-made {
+        gap: 2rem;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 150px 150px;
+        padding: 10px 0;
+        
+    }
+
+}
+@media (max-width: 414px) {
+    .component{
+        padding:0;
+    }
+
+    .shop,.other {
+        gap:2px;
+        padding:0 10px;
+      
+    }
+    .cake-item {
+        width: 120px; 
+        height: 120px; 
+    }
+
+
+    .custom-made {
+        row-gap: 2rem;
+        column-gap: 1rem;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 150px 150px;
+        padding: 10px 0;
+        
     }
 
 }
