@@ -18,7 +18,6 @@
     margin: 30px;
     height: 80%;
     border: 20px solid rgb(255, 255, 255);
-    
     object-fit: cover;
 }
 .order-description {
@@ -91,11 +90,15 @@
        
     }
 
+
     .order-img,
     .order-description {
         width: 100%;
         box-sizing: border-box;
-        margin: 0 10px;
+        margin: 0;
+    }
+    .cake_img {
+        margin: 0;
     }
 
     .quantity-button {
