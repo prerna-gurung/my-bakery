@@ -16,11 +16,11 @@
 }
 .shop {
     display: flex;
-    box-sizing:border-box;
     justify-content: space-around; 
     flex-wrap: wrap; 
-    gap: 20px; 
-    padding:50px;
+    row-gap: 40px;
+    column-gap:20px
+    padding:0 50px;
 }
 .cake-item {
     width: 200px; 
