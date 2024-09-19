@@ -1,5 +1,5 @@
 import layer_cake from "../assets/images/layer-cake.jpg";
-import wedding_cake from "../assets/images/Wedding_cake.jpg";
+import wedding_cake from "../assets/images/wedding_cake.jpg";
 import cheese_cake from "../assets/images/cheesecake.jpg"
 
 function Banner() {
