@@ -159,7 +159,7 @@ img.feature-icon {
     }
     .shop,.other {
         gap:5px;
-        padding:0 20px;
+        padding:0 25px;
       
     }
     .cake-item {
@@ -173,6 +173,9 @@ img.feature-icon {
         grid-template-rows: 150px 150px;
         padding: 10px 0;
         
+    }
+    #categories,#other-items {
+        margin-top: 1rem;
     }
 
 }
